@@ -1,4 +1,4 @@
-# SmartHire - Intelligent Document Question Answering System
+# NavaVeda - Intelligent Document Question Answering System
 
 RAG-based system using FAISS vector DB and Sentence Transformers for semantic PDF search; Llama3 via Ollama for context-aware answers.
 
@@ -6,7 +6,7 @@ RAG-based system using FAISS vector DB and Sentence Transformers for semantic PD
 
 ## Project Overview
 
-Reading long PDF documents to find specific answers is time-consuming. SmartHire lets you upload any PDF and ask questions in plain language. The system retrieves the most relevant sections from the document and passes them to a local LLM to generate a precise, context-aware answer — all running offline.
+Reading long PDF documents to find specific answers is time-consuming. NavaVeda lets you upload any PDF and ask questions in plain language. The system retrieves the most relevant sections from the document and passes them to a local LLM to generate a precise, context-aware answer — all running offline.
 
 ```
 PDF Upload -> Text Extraction -> Chunking -> Embeddings -> FAISS Index -> Semantic Search -> Llama3 -> Answer
@@ -42,7 +42,7 @@ PDF Upload -> Text Extraction -> Chunking -> Embeddings -> FAISS Index -> Semant
 ## Project Structure
 
 ```
-SmartHire-rag-qa/
+navaveda-rag-qa/
 |
 |- app.py               # Main Streamlit application
 |- requirements.txt     # Python dependencies
@@ -139,8 +139,8 @@ of purchase.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/SmartHire-rag-qa.git
-cd SmartHire-rag-qa
+git clone https://github.com/yourusername/navaveda-rag-qa.git
+cd navaveda-rag-qa
 ```
 
 ### 2. Install Dependencies
